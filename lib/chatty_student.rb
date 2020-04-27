@@ -9,7 +9,9 @@ class ChattyStudent < Student
     def raise_hand
 # binding.pry
         10.times {super}
-
+#or     10.times do
+#            super
+#        end
     end
 
 end
